@@ -22,11 +22,14 @@ Before you begin, ensure you have met the following requirements:
 
    ```bash
    git clone https://github.com/samridhi-sahu/CURD-API.git
+   
 2. Navigate to the directory, install dependencies i.e. gorilla/mux and mysql and build project.
 3. Start the API server : The API will be accessible at http://localhost:4000. You can test the API using tools like Postman or curl.
-4. API Endpoints :
-POST /student: Create a new student.
-GET /student/{roll}: Retrieve a student by roll no.
-GET /students: Retrieve all students.
-PUT /student/{roll}: Update a student by roll no.
-DELETE /student/{roll}: Delete a student by roll no.
+   
+## API Endpoints :
+
+- POST /student: Create a new student.
+- GET /student/{roll}: Retrieve a student by roll no.
+- GET /students: Retrieve all students.
+- PUT /student/{roll}: Update a student by roll no.
+- DELETE /student/{roll}: Delete a student by roll no.
